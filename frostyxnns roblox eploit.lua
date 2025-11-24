@@ -902,13 +902,6 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Hm5011/hussain/refs/h
  })
 
 local Button = OTab:CreateButton({
-   Name = "CaliShootout Gui",
-   Callback = function()
-loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/pskyc4665k-coder/ffaa/refs/heads/main/CALI%20SHOOTOUT.txt"))()
-   end,    
- })
-
-local Button = OTab:CreateButton({
    Name = "MiamiStreetz Gui",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Seriously56/Scripts/refs/heads/main/Miami%20Streetz", true))()
@@ -935,6 +928,7 @@ local Button = OTab:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/herbetsmith34-netizen/chat-spammer/refs/heads/main/spam%20script",true))()
    end,    
  })
+
 
 
 
